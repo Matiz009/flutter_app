@@ -5,15 +5,15 @@ class SecondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Second Screen")),
+      appBar: AppBar(title: const Center( child: Text("Mati ul Rehman",style: TextStyle(color: Colors.black),))),
       body: Center(
         child: Container(
           width: 300,
           height: 300,
           decoration: const BoxDecoration(
-              color: Colors.amberAccent,
+              color: Colors.black,
           ),
-          child: const Text("Hello Second App", style: TextStyle(color: Colors.green),),
+          child: const Center(child: Text("Hello Second App", style: TextStyle(color: Colors.white),)),
         ),
       ),
 

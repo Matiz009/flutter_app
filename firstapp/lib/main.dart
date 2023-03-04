@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:firstapp/second_screen.dart';
 
 void main(){
   runApp(const MaterialApp(
     title: "Awesome App", 
-    home: FirstApp(),
+    home: SecondScreen(),
   ));
 }
 
@@ -24,9 +25,9 @@ class FirstApp extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          'Hello, Made by Matiz!',
-          style: TextStyle(color: Colors.red),
-        ),
+          'Hello, kesi ho?',
+          style: TextStyle(backgroundColor: Colors.pink,color: Colors.white),
+        )
       ),
 
     );
