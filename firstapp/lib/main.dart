@@ -1,23 +1,34 @@
 import 'package:flutter/material.dart';
+
 void main(){
   runApp(const MaterialApp(
-    title: "Awesome App",
-    home: HomePage(),
+    title: "Awesome App", 
+    home: FirstApp(),
   ));
 }
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+
+class FirstApp extends StatelessWidget {
+  const FirstApp({super.key});
 
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:const Text("Awesome App"),
+        title: const Center(
+          child: Text(
+            'Awesome App',
+            style: TextStyle(color: Colors.black),
+          ),
+        ),
       ),
-      body: Container(
-        color:Colors.cyan,
+      body: const Center(
+        child: Text(
+          'Hello, Made by Matiz!',
+          style: TextStyle(color: Colors.red),
+        ),
       ),
+
     );
   }
 }
