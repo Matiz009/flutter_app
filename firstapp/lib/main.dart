@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:firstapp/second_screen.dart';
+import 'package:firstapp/practise.dart';
 
 void main(){
   runApp(const MaterialApp(
     title: "Awesome App", 
-    home: SecondScreen(),
+    home: Practise(),
   ));
 }
 
