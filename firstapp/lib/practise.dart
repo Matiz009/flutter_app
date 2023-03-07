@@ -9,16 +9,13 @@ class Practise extends StatelessWidget {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Test App',
+            'Hamza The Great',
             style: TextStyle(color: Colors.black),
           ),
         ),
       ),
       body: const Center(
-          child: Text(
-            'Hi',
-            style: TextStyle(color: Colors.black),
-          )
+          child: Image(image: NetworkImage('https://images.unsplash.com/photo-1678188053105-18540da446bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60'))
       ),
 
     );

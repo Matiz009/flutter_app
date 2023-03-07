@@ -5,15 +5,9 @@ class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Container(
-          width: 400,
-          height: 400,
-          decoration: const BoxDecoration(
-              color: Colors.green
-          ),
-          child: const Center( child: Text("Hello World", style: TextStyle(color: Colors.white),),
-        )),
+      appBar: AppBar(title: const Center( child: Text("Mati ul Rehman",style: TextStyle(color: Colors.black),))),
+      body: const Center(
+        child: Image(image: AssetImage('assets/picB.jpg'),),
       ),
 
 
